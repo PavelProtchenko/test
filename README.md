@@ -2,6 +2,7 @@
 Sociability test (Тест на коммуникабельность)
 
 Программа создана в рамках обучения программированию на Ruby в школе программирования "Хороший программист" http://goodprogrammer.ru
+
 автор: Андрей Плеханов, 2017
 e-mail: 1989plekhanov@gmail.com
 https://github.com/andryplekhanov
