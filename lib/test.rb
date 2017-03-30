@@ -1,4 +1,6 @@
 class Test
+  attr_reader :score
+
   def initialize(questions)
     @score = 0
     @questions = questions
@@ -24,9 +26,5 @@ class Test
     elsif user_input == 3
       @score += 1
     end
-  end
-
-  def total_score
-    @score
   end
 end
