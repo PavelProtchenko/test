@@ -18,8 +18,8 @@ else
   abort "Файл с вопросами не найден"
 end
 
-require_relative "test"
-require_relative "result_printer"
+require_relative "lib/test"
+require_relative "lib/result_printer"
 
 username = ARGV[0]
 
