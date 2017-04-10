@@ -1,7 +1,7 @@
 # Sociability test
 ### (Тест на коммуникабельность)  
 
-######[Ссылка на оригинал](http://www.syntone-spb.ru/library/article_syntone/content/4969.html)
+###### [Ссылка на оригинал](http://www.syntone-spb.ru/library/article_syntone/content/4969.html)
 
 язык (language): Russian
 
