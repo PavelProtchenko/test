@@ -1,21 +1,10 @@
-current_path = File.dirname(__FILE__)
-results_path = current_path + "/data/results.txt"
-questions_path = current_path + "/data/questions.txt"
+current_path = File.dirname(__FILE__) + "/data/"
 
 begin
-  f = File.new(results_path, "r:UTF-8")
-  results = f.readlines
-  f.close
+  results = File.readlines(current_path + "results.txt", encoding: "UTF-8")
+  questions = File.readlines(current_path + "questions.txt", encoding: "UTF-8")
 rescue SystemCallError
-  abort "Файл с результатами не найден: #{results_path}"
-end
-
-begin
-  f = File.new(questions_path, "r:UTF-8")
-  questions = f.readlines
-  f.close
-rescue SystemCallError
-  abort "Файл с вопросами не найден: #{questions_path}"
+  abort "Ошибка чтения файла в директории #{current_path}"
 end
 
 require_relative "lib/test"
